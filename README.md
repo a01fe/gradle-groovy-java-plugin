@@ -8,6 +8,13 @@ To demonstrate this, follow this script:
 
 ```bash
 $ git clone git@github.com:a01fe/gradle-groovy-java-plugin.git    # Clone this repository
+Cloning into 'gradle-groovy-java-plugin'...
+remote: Enumerating objects: 29, done.
+remote: Counting objects: 100% (29/29), done.
+remote: Compressing objects: 100% (18/18), done.
+Receiving objects: 100% (29/29), 57.98 KiB | 9.66 MiB/s, done.
+remote: Total 29 (delta 0), reused 29 (delta 0), pack-reused 0
+$ cd gradle-groovy-java-plugin                                    # Change directory to plugin project
 $ ./gradlew build                                                 # Verify that Gradle can successfully build plugin
 
 BUILD SUCCESSFUL in 2s
