@@ -1,0 +1,18 @@
+plugins {
+    id 'groovy'
+    id 'java'
+    id 'java-gradle-plugin'
+}
+
+repositories {
+    jcenter()
+}
+
+gradlePlugin {
+    plugins {
+        greeting {
+            id = 'foo.plugin.greeting'
+            implementationClass = 'foo.plugin.FooPlugin'
+        }
+    }
+}
